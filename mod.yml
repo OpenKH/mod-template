@@ -1,6 +1,17 @@
 title: OpenKH mod template
+originalAuthor: OpenKH open-source assets
+description: An example of mod to use as a template
 assets:
   - name: menu/us/title.2ld
+    multi:
+      - name: menu/jp/title.2ld
+      - name: menu/uk/title.2ld
+      - name: menu/it/title.2ld
+      - name: menu/sp/title.2ld
+      - name: menu/gr/title.2ld
+      - name: menu/fr/title.2ld
+      - name: menu/fm/title.2ld
+    required: true
     method: binarc
     source:
       - name: titl
@@ -8,15 +19,7 @@ assets:
         method: imgz
         source:
           - name: title/title1.png
-            index: 1
-  - name: menu/fm/title.2ld
-    method: binarc
-    source:
-      - name: titl
-        type: imgz
-        method: imgz
-        source:
-          - name: title/title1.png
+            highdef: title/title1_hd.png
             index: 1
   - name: msg/jp/sys.bar
     method: binarc
