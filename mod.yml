@@ -21,6 +21,9 @@ assets:
           - name: title/title1.png
             highdef: title/title1_hd.png
             index: 1
+          - name: title/title7.png
+            highdef: title/title7_hd.png
+            index: 7
   - name: msg/jp/sys.bar
     method: binarc
     source:
